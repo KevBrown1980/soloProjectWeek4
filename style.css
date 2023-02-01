@@ -1,0 +1,163 @@
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: rgb(59, 85, 95);
+    color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px darkslategray;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+nav a {
+    background-color: aliceblue;
+    color: rgb(59, 85, 95);
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px darkslategray;
+    padding: 2px;
+}
+
+nav a:hover {
+    background-color: rgb(59, 85, 95);
+    color: aliceblue;
+}
+
+h2 {
+    color: rgb(59, 85, 95);
+    text-align: center;
+    text-decoration: underline;
+}
+
+section {
+    color: rgb(59, 85, 95);
+}
+
+section img {
+    width: 80%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px darkslategray;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section a {
+    color: rgb(59, 85, 95);
+}
+
+section p {
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+h4 {
+    text-decoration: underline;
+}
+
+
+.social-media-link-box-container {
+    display: flex;
+    justify-content: column;
+}
+
+.social-media-link-box {
+
+    background-color: aliceblue;
+    color: rgb(59, 85, 95);
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px darkslategray;
+    margin: 5px;
+    width: 90%;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+
+.social-media-images {
+    width: 90%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+div a {
+    color: rgb(59, 85, 95);
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(59, 85, 95);
+    color: aliceblue;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px darkslategray;
+}
+
+/* 
+Designed the mobile version first - see above
+Below are theMedia Quiries for Desktop */
+
+@media screen and (min-width:501px) {
+
+    h1 {
+        font-size: 4em;
+    }
+
+    nav a {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    section {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    section img {
+        width: 40%;
+    }
+
+
+
+    .left {
+        float: left;
+        margin: 0 20px 20px 0;
+    }
+
+
+    .social-media-link-box-container {
+        width: 30%;
+        height: inherit;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+}
