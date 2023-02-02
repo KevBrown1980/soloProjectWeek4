@@ -76,6 +76,7 @@ h4 {
 .social-media-link-box-container {
     display: flex;
     justify-content: column;
+    margin-top: 2em;
 }
 
 .social-media-link-box {
