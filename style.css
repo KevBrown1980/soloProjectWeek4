@@ -160,4 +160,13 @@ Below are theMedia Quiries for Desktop */
         margin-right: 35%;
     }
 
+    div.listContainer {
+        text-align: center;
+    }
+
+    ul.myUL {
+        display: inline-block;
+        text-align: left;
+    }
+
 }
